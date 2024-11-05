@@ -6,7 +6,7 @@
 /*   By: anachat <anachat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 10:20:43 by anachat           #+#    #+#             */
-/*   Updated: 2024/11/01 10:29:45 by anachat          ###   ########.fr       */
+/*   Updated: 2024/11/05 11:47:05 by anachat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,6 @@
 
 void	ft_lstdelone(t_list *lst, void (*del)(void*))
 {
-	(*del)(lst->content);
+	del(lst->content);
 	free(lst);
 }

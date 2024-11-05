@@ -6,11 +6,10 @@
 /*   By: anachat <anachat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 15:40:37 by anachat           #+#    #+#             */
-/*   Updated: 2024/10/27 13:12:53 by anachat          ###   ########.fr       */
+/*   Updated: 2024/11/04 15:17:20 by anachat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include "libft.h"
 
 char	*ft_strdup(const char *s1)

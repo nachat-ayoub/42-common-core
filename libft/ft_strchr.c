@@ -6,7 +6,7 @@
 /*   By: anachat <anachat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/23 15:25:52 by anachat           #+#    #+#             */
-/*   Updated: 2024/10/26 12:07:27 by anachat          ###   ########.fr       */
+/*   Updated: 2024/11/04 17:23:10 by anachat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 char	*ft_strchr(const char *str, int c)
 {
-	int		i;
+	size_t	i;
 	char	ch;
 
 	ch = (char) c;

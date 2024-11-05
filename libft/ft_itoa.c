@@ -6,12 +6,11 @@
 /*   By: anachat <anachat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/29 19:24:47 by anachat           #+#    #+#             */
-/*   Updated: 2024/10/30 21:19:28 by anachat          ###   ########.fr       */
+/*   Updated: 2024/11/04 15:55:58 by anachat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
 
 static size_t	int_len(int n)
 {

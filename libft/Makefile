@@ -6,18 +6,21 @@ BOBJECTS=$(BCFILES:.c=.o)
 CC=cc
 CFLAGS=-Wall -Wextra -Werror
 
-all:$(NAME)
+all: $(NAME)
 
 $(NAME): $(OBJECTS)
 	ar rcs $@ $?
+
 %.o: %.c
 	$(CC) $(CFLAGS) -c $?
-bonus:$(OBJECTS) $(BOBJECTS)
+
+bonus: $(BOBJECTS)
 	ar rcs $(NAME) $?
+
 clean:
 	rm -rf $(OBJECTS) $(BOBJECTS)
+
 fclean: clean
 	rm -rf $(NAME)
-re: fclean all
 
-.PHONY: all bonus clean fclean re
+re: fclean all
